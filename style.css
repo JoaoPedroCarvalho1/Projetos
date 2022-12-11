@@ -1,5 +1,5 @@
 body{
-    background-image: url(./imagens/background1.jpg);
+    background-image: url(./imagens/backiee-125865.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
@@ -7,6 +7,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-items: center;
     display: flex;
+    margin: 0;
 }
 .form {    
     width: 300px;
@@ -16,14 +17,14 @@ body{
     left:50%;
     margin: -25px 00 -25px;
     transform: translate(-50%,-50%);
-    background-color: #ffffff70;
+    background-color: #ffffff37;
     padding: 45px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0px 10px rgba(0, 0, 0,24);
 }    
 .form h1{
-    color: #30559a;
+    color: #fefeffad;
     font-size: 40px;
     font-family:sans-serif;
 }
@@ -41,18 +42,55 @@ body{
     width: 300px;
     height: 40px;
     color: #ffffff;
-    background-color: #30559a;
+    background-color: #2f2a2a;
     border-radius: 15px;
     border: 0;
     font-size: 20px;
     font-family:sans-serif;
 }
 a{
-    color: #30559a;
+    font-size: 20px;
+    color: rgb(255, 249, 249);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
 }
 a:hover{
-    color:rgb(26, 2, 79);
+    opacity: 0.5;
+    color:#0b0b0b;
+}
+.menssage{
+    color: #ffffff;
+}
+.link{
+    color: #000000;
+    font-size: 15px;
+    text-decoration:underline;
+}
+.link:hover{
+    opacity: 0.5;
+    color:#ffffff;
 }
  .form button:hover{
     box-shadow: 0px 0px 4px black;
  }
+ .menu{
+    width: 100%;
+    height: 8vh;
+    background-color: #ffffff35;
+    display: flex;
+    justify-content: space-around;
+    font-family:'Courier New', Courier, monospace;
+    text-transform:lowercase;
+    padding-right: 50px;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin: auto;
+    margin-left: 150px;
+    align-items: center;
+
+}
